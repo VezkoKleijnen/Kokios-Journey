@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="2000" height="1080" tilewidth="1" tileheight="1" infinite="0" nextlayerid="13" nextobjectid="6">
+ <tileset firstgid="1" name="Light" tilewidth="236" tileheight="1080" tilecount="1" columns="1">
+  <image source="../../../../../../../AAA/Week4+/002_line_collision_detection/bin/Debug/Light.png" width="236" height="1080"/>
+ </tileset>
+ <imagelayer id="7" name="img3">
+  <image source="1.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="8" name="Afbeelding Laag 4">
+  <image source="2.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="9" name="Afbeelding Laag 5">
+  <image source="3.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="10" name="Afbeelding Laag 6">
+  <image source="4.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="11" name="Afbeelding Laag 7">
+  <image source="5.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="12" name="Afbeelding Laag 8">
+  <image source="6.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="5" name="img2" offsetx="0" offsety="1000">
+  <image source="../../bg1.png" width="3000" height="1080"/>
+ </imagelayer>
+ <objectgroup id="6" name="lighting"/>
+ <imagelayer id="4" name="img1">
+  <image source="../../newStage.png" width="8800" height="3240"/>
+ </imagelayer>
+</map>

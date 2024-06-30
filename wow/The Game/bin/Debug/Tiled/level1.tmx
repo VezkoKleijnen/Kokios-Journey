@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="2000" height="1080" tilewidth="1" tileheight="1" infinite="0" nextlayerid="15" nextobjectid="6">
+ <tileset firstgid="1" source="Light.tsx"/>
+ <tileset firstgid="2" name="Light" tilewidth="236" tileheight="1080" tilecount="1" columns="1">
+  <image source="../Light.png" width="236" height="1080"/>
+ </tileset>
+ <imagelayer id="13" name="farback">
+  <image source="bgs/1.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="8" name="Afbeelding Laag 4">
+  <image source="bgs/2.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="9" name="Afbeelding Laag 5" offsetx="800" offsety="0">
+  <image source="bgs/3.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="10" name="Afbeelding Laag 6">
+  <image source="bgs/4.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="11" name="Afbeelding Laag 7">
+  <image source="bgs/5.png" width="8800" height="3240"/>
+ </imagelayer>
+ <imagelayer id="12" name="Afbeelding Laag 8" offsetx="2600" offsety="0">
+  <image source="../6.png" width="5921" height="3240"/>
+ </imagelayer>
+ <imagelayer id="5" name="img2" visible="0" offsetx="0" offsety="1000">
+  <image source="../bg1.png" width="3000" height="1080"/>
+ </imagelayer>
+ <objectgroup id="6" name="lighting">
+  <object id="4" gid="1" x="354.097" y="1689.58" width="236" height="1080" rotation="34.4292"/>
+  <object id="5" gid="1" x="413.265" y="1514.19" width="129.966" height="961.142" rotation="34.0304"/>
+ </objectgroup>
+ <imagelayer id="4" name="img1">
+  <image source="../newStage.png" width="8800" height="3240"/>
+ </imagelayer>
+</map>
